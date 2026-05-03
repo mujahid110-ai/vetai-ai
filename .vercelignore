@@ -1,0 +1,11 @@
+# Shrinks uploads if the Vercel project is attached to the repository root.
+# Recommended: set Vercel "Root Directory" to `frontend` and rely on `frontend/.vercelignore`.
+
+backend/
+venv/
+.venv/
+env/
+ENV/
+**/__pycache__/
+*.py[cod]
+.streamlit/

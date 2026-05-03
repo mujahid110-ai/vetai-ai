@@ -1,0 +1,210 @@
+{
+  "disease_knowledge": {
+    "Bovine Respiratory Disease (BRD)": {
+      "description": "A complex of infections affecting the lungs, most common in stressed or recently transported cattle.",
+      "treatment": "Broad-spectrum antibiotics (florfenicol, tulathromycin, enrofloxacin). NSAIDs for inflammation. Isolation and supportive care.",
+      "prevention": "Vaccination (BRSV, IBR, PI3, BVDV), minimize stress during transport, proper ventilation.",
+      "severity": "High",
+      "urgency": "Treat within 24 hours",
+      "zoonotic": false
+    },
+    "Foot and Mouth Disease": {
+      "description": "Highly contagious viral disease causing blisters on feet, mouth, and teats. Notifiable disease.",
+      "treatment": "No specific antiviral. Supportive care, wound cleaning, antibiotics to prevent secondary infection. NOTIFY AUTHORITIES IMMEDIATELY.",
+      "prevention": "Vaccination, strict biosecurity, movement controls.",
+      "severity": "Critical",
+      "urgency": "IMMEDIATE - Report to animal health authorities",
+      "zoonotic": true
+    },
+    "Bovine Viral Diarrhea (BVD)": {
+      "description": "Viral disease causing immune suppression, diarrhea, reproductive failure, and persistent infection in calves.",
+      "treatment": "No specific treatment. Supportive therapy (fluids, electrolytes). Remove persistently infected (PI) animals.",
+      "prevention": "Vaccination, test-and-cull PI animals, biosecurity.",
+      "severity": "High",
+      "urgency": "Consult vet within 48 hours",
+      "zoonotic": false
+    },
+    "Mastitis": {
+      "description": "Inflammation of the mammary gland, usually bacterial. Major cause of reduced milk yield.",
+      "treatment": "Intramammary antibiotics, systemic antibiotics for severe cases. Teat stripping. NSAIDs for pain.",
+      "prevention": "Post-milking teat dipping, dry cow therapy, clean environment, regular milking equipment maintenance.",
+      "severity": "Moderate-High",
+      "urgency": "Treat within 24 hours",
+      "zoonotic": false
+    },
+    "Pneumonia": {
+      "description": "Lung infection, often caused by bacteria (Mannheimia, Pasteurella) or viruses.",
+      "treatment": "Antibiotics (florfenicol, oxytetracycline), NSAIDs, bronchodilators if needed.",
+      "prevention": "Reduce stress, good ventilation, vaccination, avoid overcrowding.",
+      "severity": "High",
+      "urgency": "Treat within 24 hours",
+      "zoonotic": false
+    },
+    "Bloat": {
+      "description": "Abnormal accumulation of gas in the rumen, can be frothy or free gas. Life-threatening if severe.",
+      "treatment": "Pass stomach tube to release gas. Anti-foaming agents (poloxalene, simethicone). Emergency trocarization if severe.",
+      "prevention": "Gradual introduction to lush pastures, use of anti-foaming agents, avoid wet legumes.",
+      "severity": "Critical if severe",
+      "urgency": "Immediate treatment needed",
+      "zoonotic": false
+    },
+    "Blackleg": {
+      "description": "Fatal clostridial infection causing gas gangrene in muscles, primarily in young cattle.",
+      "treatment": "Large doses of penicillin early. Prognosis usually poor once clinical signs appear.",
+      "prevention": "Vaccination (clostridial vaccine) - highly effective.",
+      "severity": "Critical",
+      "urgency": "IMMEDIATE - Usually fatal without very early treatment",
+      "zoonotic": false
+    },
+    "Lumpy Skin Disease": {
+      "description": "Viral disease causing skin nodules, fever, and reduced production. Spread by insects.",
+      "treatment": "No specific antiviral. Supportive care, antibiotics for secondary infections, wound care.",
+      "prevention": "Vaccination, insect control, movement restrictions.",
+      "severity": "High",
+      "urgency": "Report to authorities, consult vet",
+      "zoonotic": false
+    },
+    "Anthrax": {
+      "description": "Bacterial disease (B. anthracis) causing sudden death. NOTIFIABLE DISEASE - extremely dangerous.",
+      "treatment": "High-dose penicillin if caught early. Do NOT perform post-mortem - spores are hazardous to humans.",
+      "prevention": "Annual vaccination in endemic areas.",
+      "severity": "Critical",
+      "urgency": "IMMEDIATE - Notify authorities. ZOONOTIC RISK.",
+      "zoonotic": true
+    },
+    "Brucellosis": {
+      "description": "Bacterial disease causing abortions, retained placenta, and reproductive failure. Zoonotic.",
+      "treatment": "Cull infected animals. No practical treatment for cattle.",
+      "prevention": "Vaccination (S19 or RB51 for heifers), test and slaughter policy.",
+      "severity": "High",
+      "urgency": "Report to authorities - ZOONOTIC",
+      "zoonotic": true
+    },
+    "Ringworm": {
+      "description": "Fungal skin infection causing circular lesions, common in young cattle in winter.",
+      "treatment": "Topical antifungals (enilconazole, natamycin). Iodine solutions. Often self-limiting.",
+      "prevention": "Good hygiene, avoid overcrowding, disinfect housing.",
+      "severity": "Low",
+      "urgency": "Non-urgent, schedule vet visit",
+      "zoonotic": true
+    },
+    "Pink Eye (IBK)": {
+      "description": "Bacterial (Moraxella bovis) eye infection causing corneal ulcers and temporary blindness.",
+      "treatment": "Penicillin (subconjunctival injection or systemic), eye patching, fly control.",
+      "prevention": "Face fly control, vaccination, reduce dust and UV exposure.",
+      "severity": "Moderate",
+      "urgency": "Treat within 48 hours to prevent blindness",
+      "zoonotic": false
+    },
+    "Coccidiosis": {
+      "description": "Parasitic intestinal disease causing bloody diarrhea in calves, especially in overcrowded conditions.",
+      "treatment": "Amprolium, sulfonamides, toltrazuril. Fluid therapy for dehydration.",
+      "prevention": "Clean environment, avoid overcrowding, prophylactic treatment in high-risk groups.",
+      "severity": "Moderate-High in young calves",
+      "urgency": "Treat within 48 hours",
+      "zoonotic": false
+    },
+    "Ketosis": {
+      "description": "Metabolic disease in early lactation cows due to negative energy balance, fat mobilization.",
+      "treatment": "IV glucose, propylene glycol (oral), corticosteroids in severe cases. Address underlying nutrition.",
+      "prevention": "Optimize body condition at calving, high-quality transition diet, monitor post-calving.",
+      "severity": "Moderate",
+      "urgency": "Treat within 24-48 hours",
+      "zoonotic": false
+    },
+    "Milk Fever (Hypocalcemia)": {
+      "description": "Metabolic disease at calving due to low blood calcium levels. Can progress to recumbency and death.",
+      "treatment": "IV calcium borogluconate (slow infusion). Oral calcium supplements.",
+      "prevention": "DCAD diet in dry period, calcium supplementation at calving, vitamin D.",
+      "severity": "High",
+      "urgency": "IMMEDIATE - Can be fatal within hours",
+      "zoonotic": false
+    },
+    "Leptospirosis": {
+      "description": "Bacterial disease causing fever, anemia, abortion, and kidney/liver failure. Zoonotic.",
+      "treatment": "Streptomycin, penicillin, oxytetracycline. Supportive care.",
+      "prevention": "Vaccination, rodent control, avoid stagnant water.",
+      "severity": "High",
+      "urgency": "Consult vet - ZOONOTIC RISK",
+      "zoonotic": true
+    },
+    "IBR (Bovine Herpesvirus)": {
+      "description": "Viral disease causing respiratory disease, conjunctivitis, and reproductive failure (IBR/IPV).",
+      "treatment": "No specific antiviral. Supportive care, antibiotics for secondary infections.",
+      "prevention": "Vaccination (MLV or killed), biosecurity, semen testing for breeding bulls.",
+      "severity": "High",
+      "urgency": "Consult vet within 48 hours",
+      "zoonotic": false
+    },
+    "Clostridial Diseases": {
+      "description": "Group of serious diseases (enterotoxemia, pulpy kidney, tetanus) caused by Clostridium spp.",
+      "treatment": "Antitoxin if available. Penicillin. Usually poor prognosis once severe.",
+      "prevention": "Regular vaccination - highly cost-effective.",
+      "severity": "Critical",
+      "urgency": "IMMEDIATE",
+      "zoonotic": false
+    },
+    "Tick Fever (Anaplasmosis)": {
+      "description": "Tick-transmitted disease destroying red blood cells, causing severe anemia.",
+      "treatment": "Oxytetracycline (long-acting), imidocarb diproprionate. Blood transfusion in severe cases.",
+      "prevention": "Tick control (acaricides), strategic treatment, breed selection for resistance.",
+      "severity": "High",
+      "urgency": "Treat within 24-48 hours",
+      "zoonotic": false
+    },
+    "Pinkeye (Moraxella)": {
+      "description": "Contagious eye infection causing watering, squinting, and clouding of the cornea.",
+      "treatment": "Penicillin injection (subconjunctival or IM), tetracycline eye ointment, eye patch.",
+      "prevention": "Face fly control, vaccination, minimize UV exposure.",
+      "severity": "Moderate",
+      "urgency": "Treat within 48-72 hours",
+      "zoonotic": false
+    },
+    "Bovine Leukemia": {
+      "description": "Viral cancer of lymphoid tissue. Most infected cattle remain subclinical.",
+      "treatment": "No treatment available. Cull affected animals.",
+      "prevention": "Test and segregate/cull infected animals. Use clean needles and equipment.",
+      "severity": "High (long-term)",
+      "urgency": "Non-urgent - plan test-and-cull strategy",
+      "zoonotic": false
+    }
+  },
+  "pregnancy_knowledge": {
+    "Not Pregnant": {
+      "description": "The cow does not show signs consistent with pregnancy.",
+      "recommendations": "Monitor estrus cycle (18-24 days). If breeding was attempted, confirm with PAG blood/milk test at 28+ days post-breeding. Consider reproductive examination if repeated failures.",
+      "care": "Maintain normal nutrition and health management.",
+      "confidence_note": "Behavioral observation alone is not definitive. Laboratory testing recommended."
+    },
+    "Early Pregnancy (1-4 weeks)": {
+      "description": "Signs consistent with early pregnancy (weeks 1-4 post-conception). Embryo is developing; heartbeat detectable by day 20-22.",
+      "recommendations": "Confirm with PAG blood/milk test (available from day 28) or ultrasound (from day 28-30). Minimize stress - embryonic loss risk is highest in first trimester.",
+      "care": "Maintain forage quality. Avoid drastic dietary changes. No rough handling or transport. Supplement with selenium and vitamin E.",
+      "confidence_note": "Signs are very subtle at this stage. Professional confirmation strongly advised."
+    },
+    "Mid Pregnancy (4-8 weeks)": {
+      "description": "Signs consistent with early-to-mid pregnancy. Major organs forming; placenta establishing nutrient transfer.",
+      "recommendations": "Schedule ultrasound or PAG test if not done. Confirm fetal viability. Record expected calving date (~283 days from breeding).",
+      "care": "Balanced nutrition with quality forage. Supplement minerals (selenium, copper, phosphorus, zinc). Vaccinate against BVD, IBR, leptospirosis if not current.",
+      "confidence_note": "PAG blood test will give reliable confirmation at this stage."
+    },
+    "Second Trimester (3-6 months)": {
+      "description": "Mid-pregnancy confirmed. Fetus growing rapidly - may reach size of a small dog by month 6. Fetal movements may be felt on right flank.",
+      "recommendations": "Rectal palpation or ultrasound can confirm and assess fetal health. Monitor body condition score (BCS 2.5-3.5). Deworm if needed.",
+      "care": "Increase protein and energy slightly. Ensure adequate minerals. Separate from aggressive herd mates. Vaccinate 4-6 weeks before calving.",
+      "confidence_note": "Physical signs more reliable at this stage. Ultrasound confirms fetal sex after day 55."
+    },
+    "Third Trimester (7-9 months)": {
+      "description": "Advanced pregnancy. Fetus gaining >75% of birth weight during this period. Significant nutritional demands on the cow.",
+      "recommendations": "Prepare calving pen (clean, dry, well-bedded). Monitor closely. Check for signs of milk fever risk (especially dairy breeds). Pre-calving vaccination.",
+      "care": "Increase energy intake with quality forage and grains. Provide DCAD diet if high-risk for milk fever. Ensure adequate shelter. Daily observation.",
+      "confidence_note": "Signs are clear and reliable at this stage."
+    },
+    "Imminent Calving": {
+      "description": "Calving expected within 24-72 hours. Fetus moving into birth position.",
+      "recommendations": "Move to calving pen. Ensure colostrum management plan ready. Have calving equipment available. Contact vet if no progress after 2 hours of active labor.",
+      "care": "24/7 observation. Clean and disinfect calving area. Ensure cow is comfortable. Have calcium supplement ready for at-risk cows.",
+      "confidence_note": "Signs are highly reliable at this stage."
+    }
+  }
+}
